@@ -12,4 +12,8 @@ public class ConcreteStrategyD extends AbstractStrategy {
     public void method() {
         logger.info("具体策略角色{}...", this.getClass().getSimpleName());
     }
+
+    public String getType() {
+        return "D";
+    }
 }

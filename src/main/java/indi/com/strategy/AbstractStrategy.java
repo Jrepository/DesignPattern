@@ -11,4 +11,8 @@ public abstract class AbstractStrategy {
     protected final Logger logger = LoggerFactory.getLogger(this.getClass());
 
    public abstract void method();
+
+    public String getType(){
+        return null;
+    }
 }
